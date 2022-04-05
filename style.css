@@ -1,0 +1,119 @@
+:root {
+    --text-color: #667085;
+    --title-color: #101828;
+    --main-color: #8E2424;
+  }
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+    color: var(--text-color);
+}
+
+.links a {
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+button {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: var(--text-color);
+    border-radius: 0.5rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+button#signUp {
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.aboutUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 0;
+    gap: 1rem;
+}
+
+.aboutUs span {
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.aboutUs h1 {
+    font-size: 3rem;
+    color: var(--title-color);
+}
+
+.aboutUs p {
+    font-size: 1.25rem;
+    color: var(--text-color);
+    max-width: 50%;
+    text-align: center;
+}
+
+.metrics {
+    margin: 0 80px;
+    display: flex;
+}
+
+@media screen and (max-width: 767px) {
+    .metrics {
+        flex-direction: column;
+    }
+}
+
+.metrics div {
+    margin: 0 16px;
+    padding-bottom: 6rem;
+}
+
+.metrics h1 {
+    color: var(--main-color);
+    font-size: 3.75rem;
+    font-weight: 600;
+}
+
+.metrics span {
+    color: var(--title-color);
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.metrics p {
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+.job_opportunity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem 0;
+}
+
+.job_opportunity #spots {
+    color: var(--main-color);
+    background-color: rgb(142, 36, 36, 0.05);
+    border-radius: 1rem;
+    font-size: 0.875rem;
+    line-height: 20px;
+    width: 7.8125rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.job_opportunity img {
+    width: 90%;
+    margin: 0 7rem;
+}
