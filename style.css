@@ -114,7 +114,7 @@ button#signUp {
 }
 
 .talents img {
-    width: 90%;
+    width: 80%;
     margin: 0 7rem;
 }
 
@@ -151,4 +151,42 @@ button#signUp {
     color: var(--text-color);
     gap: 1.5rem;
     margin-top: 2rem;
+}
+
+.collaborators {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    background-color: rgb(195, 25, 25, 0.03);
+    margin: 0 auto;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.collaborators span {
+    color: var(--main-color);
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.collaborators h2 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 2.25rem;
+    color: var(--title-color);
+}
+
+.collaborators span.name {
+    color: var(--title-color);
+    margin: 0.5rem 0;
+    font-weight: 500;
+}
+
+.collaborators span.role {
+    color: var(--text-color);
+    font-weight: 400;
+}
+
+.collaborators img {
+   width: 56px;
 }
