@@ -95,14 +95,14 @@ button#signUp {
     font-size: 1rem;
 }
 
-.job_opportunity {
+.talents {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 6rem 0;
+    padding-top: 6rem;
 }
 
-.job_opportunity #spots {
+.talents #spots {
     color: var(--main-color);
     background-color: rgb(142, 36, 36, 0.05);
     border-radius: 1rem;
@@ -113,7 +113,42 @@ button#signUp {
     font-weight: 500;
 }
 
-.job_opportunity img {
+.talents img {
     width: 90%;
     margin: 0 7rem;
+}
+
+.job_opportunity {
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+}
+
+.area {
+    font-size: 1.25rem;
+    display: block;
+    margin: 2rem auto;
+    width: 50%;
+    font-weight: bold;
+}
+
+.job_vacancies {
+    border: 1px solid #EAECF0;
+    border-radius: 0.5rem;
+    margin: 0 auto 1rem;
+    width: 50%;
+    padding: 24px 24px 28px;
+}
+
+.job_title {
+    color: var(--title-color);
+    font-size: 1.125rem;
+    font-weight: 500;
+    
+}
+
+.job_info{
+    display: flex;
+    color: var(--text-color);
+    gap: 1.5rem;
+    margin-top: 2rem;
 }
